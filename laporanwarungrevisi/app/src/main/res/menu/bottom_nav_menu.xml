@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/NavTambah"
+        android:title="Tambah"
+        android:icon="@drawable/ic_baseline_tambah"/>
+
+
+    <item
+        android:id="@+id/NavHarga"
+        android:title="Harga"
+        android:icon="@drawable/ic_baseline_harga"/>
+
+    <item
+        android:id="@+id/Navstok"
+        android:title="Stok"
+        android:icon="@drawable/ic_baseline_stok"/>
+
+    <item
+        android:id="@+id/NavLaporan"
+        android:title="Laporan"
+        android:icon="@drawable/ic_baseline_laporan"/>
+</menu>

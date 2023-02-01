@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:onClick="tambah"
+        android:title="Tambah"
+        android:titleCondensed="@string/app_name"
+        android:icon="@drawable/ic_tambah"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:title="Harga"
+        android:titleCondensed="@string/app_name"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:title="Stok"
+        android:icon="@drawable/ic_baseline_shopping"
+        android:iconTint="@color/white"/>
+
+    <item
+        android:title="Laporan"
+        android:icon="@drawable/ic_baseline_insert_chart_24"
+        android:iconTint="@color/white"/>
+
+
+</menu>

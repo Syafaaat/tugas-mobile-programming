@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".ActivityInformasi">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:text="Cara menambahkan Item barang"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="1. buka website cloudinary.com. \n2. jika sudah login bakal ada ada pertanyaan 'what your main role?' pilih bagian Creative. \n3. bakal muncul pertanyaan lagi 'what are your primary use cases?' pilih Create and deliver asset variations. \n4. jika sudah selesai pertanyaan bakal muncul gambar di bawah klik 'go to media library. "/>
+            <ImageView
+                android:layout_marginTop="1dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gambar1"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="5. bakal ada logo + di bagian pojok bawah bakal ada pilihan gambar awan dan ponsel kamu pilih gambar ponsel."/>
+            <ImageView
+                android:layout_marginTop="1dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gambar3"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="6. bakal ada pilihan banyak, pilih my files dan bakal muncul pop up seperti gambar di bawah. "/>
+            <ImageView
+                android:layout_marginTop="1dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gambar4"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="6. pastikan gambar nya ukuran 1:1 dan berlatar belakang putih. \n7. jika sudah selesai unggah foto bakal ada titik 3 di pojok gambar tersebut seperti gambar di bawah. "/>
+
+            <ImageView
+                android:layout_marginTop="1dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gambar2"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="8. lalu klik yang bagian 'copy url'. \n9. jika sudah masukan Tautan di bagian atas. \n10. masukan nama produk \n11. masukan harga barang tersebut. \n12. masukan stok barang. \n13. lalu klik tambah jika muncul notifikasi berhasil di bawah maka data sudah masuk ke list barang. \n14.  jka selesai cek di menu harga jika sudah ada maka data berhasil di tambahkan."/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

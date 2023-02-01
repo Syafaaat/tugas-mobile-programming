@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityPersegiPanjang">
+
+    <ImageView
+        android:src="@drawable/luaspersegipanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukan panjang(cm)"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lebar"
+        android:hint="Masukan Lebar(cm)"/>
+
+    <Button
+       android:id="@+id/hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hasil"
+        android:gravity="center"
+        android:text="hasil"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBEFFF"
+    tools:context=".AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <ImageView
+
+       android:layout_gravity="center_horizontal"
+       android:src="@drawable/logobudiluhur"
+       android:layout_width="170dp"
+       android:layout_height="170dp"/>
+
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:justificationMode="inter_word"
+        android:text="Berdirinya Universitas Budi Luhur diawali dengan pendirian Yayasan Pendidikan Budi Luhur pada 1 April 1979. Kiprah Yayasan Pendidikan Budi Luhur dalam pendidikan tinggi dimulai dengan didirikannya Akademi Ilmu Komputer (AIK) pada tahun 1979, yang merupakan salah satu perguruan tinggi komputer swasta pertama di Indonesia.
+
+Universitas Budi Luhur (UBL) adalah hasil penggabungan dari Sekolah Tinggi Manajemen Informatika dan Komputer (STMIK), Sekolah Tinggi Ilmu Ekonomi (STIE), Sekolah Tinggi Teknik (STT) dan Sekolah Tinggi Ilmu Sosial dan Ilmu Politik (STISIP), diresmikan pendiriannya pada tanggal 7 Juni 2002, berdasarkan surat keputusan Menteri Pendidikan Nasional Republik Indonesia Nomor 114/D/O/2002.
+
+Universitas Budi Luhur mewajibkan setiap mahasiswa nya untuk melakukan kuliah kerja nyata (KKN) sejak 2019." />
+
+</FrameLayout>

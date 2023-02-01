@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 5.0 lolipop"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/lolipop"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 6.0 marshmallow"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/marshmallow"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 7.0 Nougat"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/Nougat"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 8.0 Oreo"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/oreo"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 9.0 Pie"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/Pie"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 10 "
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/ad10"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 11 "
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/ad11"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 12 "
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/ad12"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android 13 "
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:id="@+id/ad13"
+            android:layout_marginBottom="7dp"
+            style="@style/btn_style"
+            android:background="@drawable/edge_button"/>
+
+    </LinearLayout>
+</ScrollView>

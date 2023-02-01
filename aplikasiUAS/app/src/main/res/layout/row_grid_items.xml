@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/produk_rounded"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:elevation="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_icon_carikelontong"
+            android:id="@+id/imageView"/>
+
+        <TextView
+            android:layout_below="@+id/imageView"
+            android:id="@+id/namaProduk"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/inter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"/>
+
+        <TextView
+            android:layout_below="@+id/namaProduk"
+            android:id="@+id/hargaProduk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:textColor="@color/black"
+            android:text="Harga Produk"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
